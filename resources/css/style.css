@@ -97,3 +97,39 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*--------------- NAVIGATION ----------------- */
+
+.logo {
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav {
+    margin-top: 50px;
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 90%;
+    text-transform: uppercase;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
