@@ -1,2 +1,2 @@
 # omnifood
-simple single website with HTML5 and CSS3
+simple single page website with HTML5 and CSS3
