@@ -81,6 +81,7 @@ h3 {
     width: 70%;
     /* centering the paragraph by distributing remaining width evenly to either side */
     margin-left: 15%;
+    margin-bottom: 30px;
 }
 
 .box p {
