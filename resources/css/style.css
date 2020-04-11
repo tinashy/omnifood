@@ -195,6 +195,10 @@ header {
 /* FAVOURITE MEALS */
 /* -------------------------------------------- */
 
+.section-meals {
+    padding: 0;
+}
+
 .meals-showcase {
     width: 100%;
     list-style: none;
@@ -209,9 +213,19 @@ header {
 .meal-photo {
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background-color: #000;
 }
 
 .meal-photo img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transform: scale(1.15);
 }
+
+.meal-photo img:hover {
+    opacity: 1; 
+    transform: scale(1.03);
+    transition: transform 0.5s;
+};
