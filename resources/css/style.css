@@ -153,7 +153,9 @@ header {
     transform: translate(-50%, -50%);
 }
 
-/*--------------- NAVIGATION ----------------- */
+/* -------------------------------------------- */
+/* NAVIGATION
+/* -------------------------------------------- */
 
 .logo {
     margin-top: 20px;
@@ -187,4 +189,29 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* -------------------------------------------- */
+/* FAVOURITE MEALS */
+/* -------------------------------------------- */
+
+.meals-showcase {
+    width: 100%;
+    list-style: none;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
 }
