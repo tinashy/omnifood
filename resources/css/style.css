@@ -46,7 +46,6 @@ section {
 .box a:active {
     color: #e67e22;
     text-decoration: none;
-    border-bottom: 1px solid #e67e22;
     padding: 1px;
 }
 
@@ -325,6 +324,16 @@ header {
     padding: 5px;
 }
 
+.city-feature a {
+    color: #e67e22;
+}
+
+.city-feature a:active,
+.city-feature a:hover {
+    border-bottom: 2px solid #e67e22;
+    transition: border-bottom .2s;   
+}
+
 .city-feature ion-icon {
     color: #e67e22;
     margin-right: 20px;
@@ -460,4 +469,82 @@ input[type=checkbox] {
 
 *:focus {
     outline: none;
+}
+
+/* -------------------------------------------- */
+/* FOOTER */
+/* -------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 60px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.footer-nav li,
+.social-links:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    color: rgb(133, 115, 115);
+}
+
+.footer-nav li a:active,
+.footer-nav li a:hover {
+    color: #fff;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+.logo-facebook,
+.logo-twitter,
+.logo-google,
+.logo-instagram {
+    transition: color 0.2s;
+}
+
+.logo-facebook:hover {
+    color: #1877f2;
+}
+
+.logo-twitter:hover {
+    color: #1da1f2;
+}
+
+.logo-google:hover {
+    color: #ea4335;
+}
+
+.logo-instagram:hover {
+    color: #c32aa3;
+}
+
+footer p {
+    color: rgb(122, 115, 115);
+    text-align: center;
+    margin-top: 80px;
 }
