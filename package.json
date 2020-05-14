@@ -1,0 +1,25 @@
+{
+  "name": "omnifood_production",
+  "version": "1.0.0",
+  "description": "single page html/css website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinashy/omnifood.git"
+  },
+  "author": "Tinashy Dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinashy/omnifood/issues"
+  },
+  "homepage": "https://github.com/tinashy/omnifood#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}
