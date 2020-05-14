@@ -51,6 +51,7 @@
   }
 
   .contact-form {width: 80%;}
+
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -99,6 +100,18 @@
      margin-top: 0;
    }
 
+     .footer-nav {
+       list-style: none;
+       text-align: center;
+       width: 100%;
+       margin-bottom: 20px;
+     }
+
+     .social-links {
+       text-align: center;
+       width: 90%;
+     }
+
 }
 
 /* Small phones: from 0px to 480px */
@@ -117,7 +130,7 @@
   }
 
   .social-links {
-    width: 80%;
-    margin: 10;
+    width: 90%;
+    text-align: center;
   }
 }
