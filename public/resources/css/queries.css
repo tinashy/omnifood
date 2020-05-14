@@ -103,7 +103,21 @@
 
 /* Small phones: from 0px to 480px */
 @media only screen and (max-width: 480px) {
+
   section {padding: 25px 0;}
 
   .contact-form {width: 100%;}
+
+  footer {padding: 20px}
+
+  .footer-nav {
+    list-style: none;
+    width: 90%;
+    margin: 5%;
+  }
+
+  .social-links {
+    width: 80%;
+    margin: 10;
+  }
 }
