@@ -8,4 +8,7 @@ $(document).ready(function () {
     }
   });
 
+}, {
+  //this triggers the event 60px before we get to the html element we targeted with the .js--section-features class;
+  offset: '60px;'
 });
