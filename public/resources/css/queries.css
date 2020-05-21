@@ -70,7 +70,7 @@
   }
 
   /* ============== displaying the hamburger menu on small devices ============= */
-  /* .main-nav {display: none;} */
+  .main-nav {display: none;}
   .mobile-nav-icon {display: inline-block;}
 
   .main-nav {
@@ -100,7 +100,7 @@
   .sticky .main-nav li a:visited {padding: 10px 0;}
   /* changing the hamburger menu color to black in the sticy navbar */
   .sticky .mobile-nav-icon {margin-top: 10px;}
-  .sticky .mobile-nav-icon ion-icon {
+  .sticky .mobile-nav-icon i {
     color: #555;
   }
 

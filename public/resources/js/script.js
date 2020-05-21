@@ -21,6 +21,8 @@ $(document).ready(function () {
     $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
   });
 
+
+
   /* Navigation Scroll Code Snippet from CSS Tricks */
 
   // Select all links with hashes
@@ -83,5 +85,26 @@ $(document).ready(function () {
     }, {
       offset: '50%'
     });
+
+
+    /* Mobile navigation */
+  $('.js--nav-icon').click(function() {
+    var nav = $('.js--main-nav');
+
+    /* displaying a different icon on hamburger-menu open/close */
+    var icon = $('.js--nav-icon i');
+
+    nav.slideToggle(200);
+
+    if (icon.hasClass('fa-bars')) {
+      icon.addClass('fa-times');
+      icon.removeClass('fa-bars');
+    } else {
+      icon.addClass('fa-bars');
+      icon.removeClass('fa-times');
+    }
+
+  });
+
 
 });

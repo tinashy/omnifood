@@ -14,6 +14,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
+  <script src="https://kit.fontawesome.com/2369667c99.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Omnifood | Welcome</title>
@@ -26,13 +27,14 @@
       <div class="row">
         <img src="./resources/css/img/logo-white.png" alt="Omnifood Logo" class="logo" />
         <img src="./resources/css/img/logo.png" alt="Omnifood Logo" class="logo-black" />
-        <ul class="main-nav">
+        <ul class="main-nav js--main-nav">
           <li><a href="#features">Food delivery</a></li>
           <li><a href="#works">How it works</a></li>
           <li><a href="#cities">Our cities</a></li>
           <li><a href="#plans">Sign up</a></li>
         </ul>
-        <a href="#" class="mobile-nav-icon"><ion-icon name="menu-outline"></ion-icon></a>
+        <!-- used href="#0" to prevent a tag from triggering navigation scroll code -->
+        <a href="#0" class="mobile-nav-icon js--nav-icon"><i class="fas fa-bars"></i></a>
       </div>
     </nav>
     <div class="hero-text-box">
